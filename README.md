@@ -47,14 +47,15 @@ Multiple developers push code to GitHub. Jenkins automatically pulls the code, b
 
 ## 📂 Project Structure
 
-JENKINS-DOCKER-PROJECT-HDFC
+JENKINS-DOCKER-PROJECT-HDFC/
+|
+|- Dockerfile              # Build Docker image
+|-JenkinsPipeline         # Jenkins CI/CD pipeline script
+|-docker-compose.yml      # Swarm service deployment
+|- index.html              # Application source
+|-PROCESS                 # Pipeline execution steps
 
-│
-├── Dockerfile              # Build Docker image
-├── JenkinsPipeline         # Jenkins CI/CD pipeline script
-├── docker-compose.yml      # Swarm service deployment
-├── index.html              # Application source
-├── PROCESS                 # Pipeline execution steps
+
 
 ## ⚙️ Jenkins Pipeline Stages
 
