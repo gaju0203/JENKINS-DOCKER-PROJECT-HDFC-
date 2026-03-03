@@ -54,7 +54,6 @@ JENKINS-DOCKER-PROJECT-HDFC/
 ├── docker-compose.yml      # Swarm service deployment
 ├── index.html              # Application source
 ├── PROCESS                 # Pipeline execution steps
-└── README.md               # Project documentation
 
 ## ⚙️ Jenkins Pipeline Stages
 
