@@ -91,4 +91,4 @@ cd dockerproject-master
 docker stack deploy -c docker-compose.yml hdfc-app
 
 ## Access the application
-http://<manager-or-worker-ip>:<exposed-port>
+http://manager-or-worker-ip:exposed-port(80-81-82-83)
