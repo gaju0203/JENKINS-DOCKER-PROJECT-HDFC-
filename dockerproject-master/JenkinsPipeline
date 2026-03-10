@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/ReyazShaik/dockerproject.git'
+                git 'https://github.com/gaju0203/JENKINS-DOCKER-PROJECT-HDFC-.git'
             }
         }
         stage('build') {
@@ -19,7 +19,7 @@ pipeline {
         }
         stage('push') {
             steps {
-                sh 'docker login -u reyadocker -p $password'
+                sh 'docker login -u gajanan0203 -p $password'
                 sh 'docker push $repo'
             }
         }
